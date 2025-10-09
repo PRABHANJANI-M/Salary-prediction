@@ -1,18 +1,18 @@
-Salary Prediction Using Linear Regression
+# Salary Prediction Using Linear Regression
 Overview
 
 This project analyzes the relationship between Years of Experience and Salary using simple linear regression. The goal is to predict an employee’s salary based on their experience.
 
-Dataset
+# Dataset
 
 The dataset contains 30 records with the following columns:
 
 YearsExperience	Salary
-1.2	39344
-1.4	46206
-1.6	37732
+1.2-	39344
+1.4- 46206
+1.6- 37732
 ...	...
-10.6	121873
+10.6-	121873
 
 YearsExperience: Number of years an employee has worked.
 
