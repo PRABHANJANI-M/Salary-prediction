@@ -1,100 +1,80 @@
-# 📘 Salary Prediction using Linear Regression
-🔍 Overview
+Salary Prediction Using Linear Regression
+Overview
 
-This project aims to predict employee salaries based on multiple features such as Age, Gender, Education Level, and Years of Experience.
-Using Linear Regression, the model identifies how each of these factors influences salary and estimates the expected salary for new employees.
+This project analyzes the relationship between Years of Experience and Salary using simple linear regression. The goal is to predict an employee’s salary based on their experience.
 
-The analysis provides valuable insights into how education and experience affect income, supporting better decision-making in recruitment and compensation planning.
+Dataset
 
-# ⚙️ Tools & Technologies
+The dataset contains 30 records with the following columns:
 
-Python – Programming language used for data analysis and modeling
+YearsExperience	Salary
+1.2	39344
+1.4	46206
+1.6	37732
+...	...
+10.6	121873
 
-Pandas – For data handling and preprocessing
+YearsExperience: Number of years an employee has worked.
 
-NumPy – For numerical computations
+Salary: Annual salary of the employee in dollars.
 
-Matplotlib & Seaborn – For data visualization
+Model
 
-Scikit-learn – For building and evaluating the machine learning model
+A linear regression model was used to fit the data, which assumes a linear relationship between experience and salary.
 
-Sympy – For mathematical analysis and formula representation (optional)
+The resulting regression equation is:
 
-# 📂 Dataset Information
+Salary
+=
+(
+Slope
+)
+×
+YearsExperience
++
+(
+Intercept
+)
+Salary=(Slope)×YearsExperience+(Intercept)
 
-The dataset contains employee details and salary information.
-Each record represents one employee with the following fields:
+Where:
 
-Age – Employee’s age
+Slope = 9423.82 → Salary increases by approximately $9,424 for each additional year of experience.
 
-Gender – Encoded numerically (e.g., 0 = Female, 1 = Male)
+Intercept = 24,380.20 → Estimated starting salary (at 0 years of experience).
 
-Education Level – Numeric representation of education qualification
+Prediction
 
-Years of Experience – Total years of professional experience
+Using the model, the predicted salary for an employee with 8 years of experience is:
 
-Salary – Annual salary in currency units
+Salary
+=
+94
+,
+423
+×
+8
++
+24
+,
+380
+≈
+99
+,
+771
+Salary=94,423×8+24,380≈99,771
+Model Performance
 
-The dataset is clean, simple, and ideal for supervised learning.
+The R² score measures how well the model explains the variation in the data:
 
-# 🧠 Project Workflow
+R² Score (Test Data) = 90.24%
 
-Data Loading:
-The dataset is imported and inspected for structure and missing values.
+This indicates that approximately 90% of the variance in salaries can be explained by years of experience. The model fits the data reasonably well, but there are some deviations due to irregular salary jumps.
 
-Data Cleaning:
-Missing or inconsistent values are handled, and data types are standardized.
+Conclusion
 
-Exploratory Data Analysis (EDA):
+The linear regression model provides a good estimate of salary based on years of experience.
 
-Statistical summaries are generated.
+It predicts salaries reasonably well for employees with typical experience levels.
 
-Relationships between variables are explored through graphs.
-
-Correlation between features is visualized using a heatmap.
-
-Model Building:
-A Linear Regression model is trained using features like Age, Education Level, and Experience to predict Salary.
-
-Model Evaluation:
-The model is tested using various evaluation metrics such as:
-
-Mean Absolute Error (MAE)
-
-Mean Squared Error (MSE)
-
-Root Mean Squared Error (RMSE)
-
-R² Score (explains how well the model fits the data)
-
-# Visualization:
-Graphs are plotted to compare actual and predicted salaries, and to visualize trends like Salary vs Years of Experience or Salary vs Education Level.
-<img width="1189" height="990" alt="image" src="https://github.com/user-attachments/assets/073dfd7f-0460-4516-bca8-87f8cf3b0b62" />
-
-📊 Insights & Results
-
-Salary increases consistently with Years of Experience and Education Level.
-
-Age shows a moderate positive correlation with Salary.
-
-The model achieves a high R² Score, indicating strong predictive accuracy.
-
-Visualization confirms a near-linear relationship between experience and salary.
-
-# 🚀 Outcomes
-
-This project demonstrates:
-
-How to preprocess and analyze real-world salary data.
-
-How linear regression can be applied to predict continuous values.
-
-The impact of different employee factors on salary levels.
-
-# 💡 Future Enhancements
-
-Add more features such as Job Role, Location, or Industry Type.
-
-Implement Polynomial Regression or Decision Trees for better accuracy.
-
-Deploy the model as a web application using Streamlit or Flask.
+Some variations in actual salaries suggest factors beyond experience may influence pay.
