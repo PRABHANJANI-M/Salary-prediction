@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 prefix=C:/Users/DELL/OneDrive/Desktop/lr_salary/myenv/Library 
+=======
+prefix=C:/Users/DELL/OneDrive/Desktop/linear regression/myenv/Library 
+>>>>>>> fe574affc3ded318263bbbc35e20b4a1cbf12fd1
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 prefix=C:/Users/DELL/OneDrive/Desktop/lr_salary/myenv/Library
 exec_prefix=C:/Users/DELL/OneDrive/Desktop/lr_salary/myenv/Library
 libdir=C:/Users/DELL/OneDrive/Desktop/lr_salary/myenv/Library/lib
 sharedlibdir=C:/Users/DELL/OneDrive/Desktop/lr_salary/myenv/Library/lib
 includedir=C:/Users/DELL/OneDrive/Desktop/lr_salary/myenv/Library/include
+=======
+prefix=C:/Users/DELL/OneDrive/Desktop/linear regression/myenv/Library
+exec_prefix=C:/Users/DELL/OneDrive/Desktop/linear regression/myenv/Library
+libdir=C:/Users/DELL/OneDrive/Desktop/linear regression/myenv/Library/lib
+sharedlibdir=C:/Users/DELL/OneDrive/Desktop/linear regression/myenv/Library/lib
+includedir=C:/Users/DELL/OneDrive/Desktop/linear regression/myenv/Library/include
+>>>>>>> fe574affc3ded318263bbbc35e20b4a1cbf12fd1
 
 Name: zlib
 Description: zlib compression library

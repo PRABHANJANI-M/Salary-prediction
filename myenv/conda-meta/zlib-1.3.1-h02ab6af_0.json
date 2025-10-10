@@ -51,7 +51,11 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:/b/abs_32dad41tdx/croot/zlib-split_1756475910568/_h_env",
         "sha256": "46a874f3d6e4da9ccff384c6e1cdfd2d602633a7edf4cbc2fa66154458f153c8",
+<<<<<<< HEAD
         "sha256_in_prefix": "5d7b09a65c5be09babe746503a380ba42cc0a7e082d5619a6744ab9e4f7e1db4",
+=======
+        "sha256_in_prefix": "104d0b7835137b5a973fb07883312d66075e5b6c193f67323b4b99ebecdd9323",
+>>>>>>> fe574affc3ded318263bbbc35e20b4a1cbf12fd1
         "size_in_bytes": 549
       },
       {

@@ -191,7 +191,11 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\\\miniconda3\\\\conda-bld\\\\openssl_1759488976042\\\\_h_env",
         "sha256": "dd9069600315dda982c3f57a47b9a750eb18f21917714281d3e9720165153413",
+<<<<<<< HEAD
         "sha256_in_prefix": "8956928ec541ea0a98dbaf200ac851d352eb3bcb886865a429a51fe341de8344",
+=======
+        "sha256_in_prefix": "a5ed779cdc2988a0ac878b77d2be48d8f2e9367e8570149f0e847fbfceb90cd2",
+>>>>>>> fe574affc3ded318263bbbc35e20b4a1cbf12fd1
         "size_in_bytes": 7316
       },
       {
@@ -1230,7 +1234,11 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:/miniconda3/conda-bld/openssl_1759488976042/_h_env",
         "sha256": "662a827a668f1c8f7184072865599fd52f75b91a1becb3ceb851702f8d7b55a9",
+<<<<<<< HEAD
         "sha256_in_prefix": "4e3e9643111c946bc01a596a405d51fac68313feef25b9e4bc89594e0950e4a7",
+=======
+        "sha256_in_prefix": "d745a2010044bc002a1636d2991142419a8dd88052c47c0b5562d5ae0cf052a7",
+>>>>>>> fe574affc3ded318263bbbc35e20b4a1cbf12fd1
         "size_in_bytes": 332
       },
       {
@@ -1239,7 +1247,11 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:/miniconda3/conda-bld/openssl_1759488976042/_h_env",
         "sha256": "9124bd732b42263f94369794f065e418d66ba230a828d775345598b708cf63c7",
+<<<<<<< HEAD
         "sha256_in_prefix": "23c0e4606548dbb43861ed13806e58dc17f7f28589f32051642d073a616a8c64",
+=======
+        "sha256_in_prefix": "0352ff746e57d7aab43b42b1839f9bcf7184178c4e4d7ef436e254c910f5ba10",
+>>>>>>> fe574affc3ded318263bbbc35e20b4a1cbf12fd1
         "size_in_bytes": 332
       },
       {
@@ -1248,7 +1260,11 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:/miniconda3/conda-bld/openssl_1759488976042/_h_env",
         "sha256": "67d9276d3d64f6085b3e57ae1b01223d864bbf20a785df062a5e68e1f267bacf",
+<<<<<<< HEAD
         "sha256_in_prefix": "f6aaf1607f464c3ac0dab13a35c1eb4bcc243067d686bd6f87f6cde6b947d13c",
+=======
+        "sha256_in_prefix": "6014c73434a7e68def996800bf7edb4e8906d12c20013a3042d2e78833c8db4d",
+>>>>>>> fe574affc3ded318263bbbc35e20b4a1cbf12fd1
         "size_in_bytes": 285
       },
       {
